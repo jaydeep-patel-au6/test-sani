@@ -5,12 +5,13 @@ import OnePost from "./components/OnePost.js";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <Route component={AllPosts} path="/" exact />
-        <Route component={OnePost} path="/:slug" />
-      </div>
-    </BrowserRouter>
+    // <BrowserRouter>
+    <div>
+      <AllPosts />
+      {/* <Route component={AllPosts} path="/" exact /> */}
+      {/* <Route component={OnePost} path="/:slug" /> */}
+    </div>
+    // </BrowserRouter>
   );
 }
 
